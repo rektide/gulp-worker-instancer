@@ -1,23 +1,27 @@
 {
-	"name": "gulp-worker-instancer",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://archive.eldergods.com/gulp-worker-instancer"
-	},
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"gulp-util": "^3.0.1",
-		"through": "^2.3.6",
-		"vinyl": "^0.4.5",
-		"vinyl-named": "^1.1.0",
-		"webpack": "^1.4.13",
-		"workerify": "^0.3.0"
-	}
+  "name": "gulp-worker-instancer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://archive.eldergods.com/gulp-worker-instancer"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-util": "^3.0.1",
+    "through": "^2.3.6",
+    "vinyl": "^0.4.5",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^1.4.13",
+    "workerify": "^0.3.0"
+  },
+  "devDependencies": {
+    "gulp-webpack": "^1.0.0"
+  }
 }
